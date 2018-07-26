@@ -20,7 +20,8 @@ def dev_test():
             break
 
 def agent_test():
-    r = RandomAgent(7)
+    # r = RandomAgent(7)
+    r = HumanAgent(7)
     h = HumanAgent(7)
     agents = [h,r]
     env = Connect4(verbose=True)
